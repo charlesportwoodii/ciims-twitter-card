@@ -27,7 +27,6 @@ var n0PT08x5ZkZ7Eb9 = {
 			$("#" + self.name).find(".user-info").css("background", "url(" + data.profile_banner_url + "/web)");
 			$("#" + self.name).find(".user-image").attr("src", data.profile_image_url_https);
 			$("#" + self.name).find("span.name").text(data.name);
-			$("#" + self.name).find("span.description").text(data.description);
 			$("#" + self.name).find("#followers").text(data.followers_count);
 			$("#" + self.name).find("#tweets").text(data.statuses_count);
 			$("#" + self.name).find("#following").text(data.friends_count);

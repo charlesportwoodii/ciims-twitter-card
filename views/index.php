@@ -10,7 +10,6 @@
 		<div class="user-info">
 			<img class="user-image rounded-img" src="data:null" />
 			<span class="name"></span>
-			<span class="description"></span>
 		</div>
 		<div class="details pull-right">
 			<div class="section">
