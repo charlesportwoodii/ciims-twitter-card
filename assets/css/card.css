@@ -1,0 +1,76 @@
+#n0PT08x5ZkZ7Eb9 {
+	letter-spacing: 1px;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	white-space: nowrap;
+	color: #999;
+}
+
+#n0PT08x5ZkZ7Eb9 .card-header {
+	display: block;
+	height: 35px;
+	border-bottom: 1px solid #eee;
+}
+
+#n0PT08x5ZkZ7Eb9 .card-header .title {
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 1px;
+	margin-top: 6px;
+	height: 100%;
+	font-size: 10px;
+	padding-right: 10px;
+}
+
+#n0PT08x5ZkZ7Eb9 .card-body {
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+	top: -5px;
+}
+
+#n0PT08x5ZkZ7Eb9 .card-body .user-info {
+	float:left;
+	width: 70%;
+	background: #fff;
+	text-align: center;
+	border-right: 1px solid #eee;
+	position: absolute;
+	height: 130px;
+	padding-top: 30px;
+	top: 5px;`
+}
+
+#n0PT08x5ZkZ7Eb9 .card-body .user-info img {
+	position: relative;
+	left: -6px;
+}
+
+#n0PT08x5ZkZ7Eb9 .card-body .details  {
+	margin-left: 70%;
+	position:absolute;
+	height: 130px;
+	width: 145px;
+	margin-top: 5px;
+}
+
+#n0PT08x5ZkZ7Eb9 .card-body .details .section {
+	height: 48px;
+	border-bottom: 1px solid #eee;
+	margin-top: 5px;
+}
+
+#n0PT08x5ZkZ7Eb9 .card-body .details .section:last-child {
+	border-bottom: none;
+}
+
+#n0PT08x5ZkZ7Eb9 .card-body .user-info span,
+#n0PT08x5ZkZ7Eb9 .card-body .details .section span {
+	text-transform: none;
+	text-align: center;
+	display: block;
+	width: 100%;
+	font-size: 10px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
