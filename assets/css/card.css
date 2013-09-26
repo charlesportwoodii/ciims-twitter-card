@@ -43,22 +43,21 @@
 
 #n0PT08x5ZkZ7Eb9 .card-body .user-info img {
 	position: relative;
-	left: -6px;
 	margin-bottom: 10px;
 }
 
 #n0PT08x5ZkZ7Eb9 .card-body .details  {
-	margin-left: 70%;
-	position:absolute;
 	height: 130px;
-	width: 145px;
-	margin-top: 5px;
+	margin-left: 339px;
+	position: absolute;
+	width: 143px;
+	margin-top: 4px;
 }
 
 #n0PT08x5ZkZ7Eb9 .card-body .details .section {
 	height: 48px;
 	border-bottom: 1px solid #eee;
-	margin-top: 5px;
+	padding-top: 5px;
 }
 
 #n0PT08x5ZkZ7Eb9 .card-body .details .section:last-child {
