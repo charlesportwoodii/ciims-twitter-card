@@ -19,6 +19,8 @@ var n0PT08x5ZkZ7Eb9 = {
 
 		var self = this;
 		this.getUserInfo(self);
+		
+		$("#" + name + "-footer").find(".icon-flip").hide();
         },
 
 	getUserInfo : function(self) {
