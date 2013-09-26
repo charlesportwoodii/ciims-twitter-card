@@ -1,0 +1,17 @@
+{
+	"name" : {
+		"displayName" : "Twitter Card",
+		"name" : "TwitterCard"
+	},
+	"description" : "A simple twitter card for dispaying information from Twitter",
+	"keywords" : [ "twitter", "tweet", "followers", "following" ],
+	"author" : {
+		"name" : "Charles R. Portwood II",
+		"email" : "charlesportwoodii@ethreal.net"
+	},
+	"category" : "Social",
+	"license" : "MIT",
+	"version" : "0.8",
+	"sizes" : [ "rectangle" ],
+	"activeSize" : "rectangle"
+}
