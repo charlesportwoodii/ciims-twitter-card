@@ -19,13 +19,10 @@ var n0PT08x5ZkZ7Eb9 = {
 
 		var self = this;
 		this.getUserInfo(self);
-		
-		$("#" + name + "-footer").find(".icon-flip").hide();
         },
 
 	getUserInfo : function(self) {
 		$.get(CiiDashboard.endPoint + "/card/callmethod/id/" + this.id + "/method/getTwitterDetails", function(data) {
-			console.log(data);
 			$("#" + self.name).find(".user-info").css("background", "url(" + data.profile_banner_url + "/web)");
 			$("#" + self.name).find(".user-image").attr("src", data.profile_image_url_https);
 			$("#" + self.name).find("span.name").text(data.name);
